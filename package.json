@@ -11,7 +11,8 @@
     "clean:ios": "cd ios && rimraf Pods && xcodebuild clean",
     "lint": "eslint . --ext .js,.jsx,.json --color",
     "install-assets": "react-native link",
-    "install-pods": "cd ios && pod install"
+    "install-pods": "cd ios && pod install",
+    "postinstall": "npm run install-pods"
   },
   "dependencies": {
     "react": "16.11.0",
