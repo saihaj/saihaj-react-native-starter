@@ -24,7 +24,7 @@ start:android   Start the Android emulator
 start:ios       Start the iOS emulator
 start-sims      Start Android and iOS emulators
 
-clean           Clean Android and iOS
+clean           react-native-clean-project
 clean:android   Clean Android build files
 clean:ios       Clean iOS build files
 
@@ -39,6 +39,6 @@ install-pods    Install all the pods for ios
 
 * Rename this project:  [`react-native-rename`](https://www.npmjs.com/package/react-native-rename) makes it easy to change it with just one command.
 * Checkout [Fastlane](https://docs.fastlane.tools/getting-started/cross-platform/react-native/) for releasing apps
-
+* Cleans React Native project by purging caches and modules, and reinstalling them again.[`react-native-clean-project`](https://github.com/pmadruga/react-native-clean-project)
 ## Credits
 Eslint configurations and npm scripts are inspired from [@ShabadOS/mobile](https://github.com/ShabadOS/mobile)
