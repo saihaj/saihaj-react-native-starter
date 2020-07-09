@@ -12,14 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		187FE35572DDB81700274B99 /* libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0553C35C58B578A269C052B6 /* libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a */; };
-		2A5633EB6F6A6978E5302859 /* libPods-SaihajReactNativeStarter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13044B8BE20A3FED43138901 /* libPods-SaihajReactNativeStarter-tvOS.a */; };
-		2AC4A820C2BCFF36A688CB07 /* libPods-SaihajReactNativeStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6BAFCD1E34821386ACC0EC /* libPods-SaihajReactNativeStarter.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* SaihajReactNativeStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SaihajReactNativeStarterTests.m */; };
-		4BA2F54DF78FD0CB6D54E97E /* libPods-SaihajReactNativeStarter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE50921310C7AD05567B5FF /* libPods-SaihajReactNativeStarter-tvOSTests.a */; };
+		68ED96EDDA090F1DD1810081 /* libPods-SaihajReactNativeStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C87B476BF001557EDB1EB3 /* libPods-SaihajReactNativeStarter.a */; };
+		841F0850431850AC45FF1723 /* libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B66A8E62B4BD0895D98DB02 /* libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a */; };
+		BC7DF3329BB21ADFB22EFB69 /* libPods-SaihajReactNativeStarter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B12081A3FFDFCC9C8C0FC3F4 /* libPods-SaihajReactNativeStarter-tvOS.a */; };
+		F4783418C7F2738AEE570006 /* libPods-SaihajReactNativeStarter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A78EE054BA9F52345E432175 /* libPods-SaihajReactNativeStarter-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +41,10 @@
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		009685BE04E987F6FD2D1EC9 /* Pods-SaihajReactNativeStarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-tvOS/Pods-SaihajReactNativeStarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* SaihajReactNativeStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaihajReactNativeStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SaihajReactNativeStarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaihajReactNativeStarterTests.m; sourceTree = "<group>"; };
-		0553C35C58B578A269C052B6 /* libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13044B8BE20A3FED43138901 /* libPods-SaihajReactNativeStarter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaihajReactNativeStarter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		118734D2BD52A9357A8F8908 /* Pods-SaihajReactNativeStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter.release.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter/Pods-SaihajReactNativeStarter.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SaihajReactNativeStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaihajReactNativeStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SaihajReactNativeStarter/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SaihajReactNativeStarter/AppDelegate.m; sourceTree = "<group>"; };
@@ -54,17 +52,19 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SaihajReactNativeStarter/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SaihajReactNativeStarter/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SaihajReactNativeStarter/main.m; sourceTree = "<group>"; };
-		1E6BAFCD1E34821386ACC0EC /* libPods-SaihajReactNativeStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaihajReactNativeStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21DA999A5B59A3331EAB98A0 /* Pods-SaihajReactNativeStarter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-tvOSTests/Pods-SaihajReactNativeStarter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		24A57815FE9EE28024BF23E0 /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.debug.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* SaihajReactNativeStarter-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SaihajReactNativeStarter-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* SaihajReactNativeStarter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SaihajReactNativeStarter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A8AEE4601AD62D1B6EC927B /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.release.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.release.xcconfig"; sourceTree = "<group>"; };
-		3E5D37D913DCF2785A7FFC88 /* Pods-SaihajReactNativeStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter.release.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter/Pods-SaihajReactNativeStarter.release.xcconfig"; sourceTree = "<group>"; };
-		501E19FDDAE752EA0EAE3C32 /* Pods-SaihajReactNativeStarter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-tvOSTests/Pods-SaihajReactNativeStarter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5E553A4333C75C29476E2FE7 /* Pods-SaihajReactNativeStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter.debug.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter/Pods-SaihajReactNativeStarter.debug.xcconfig"; sourceTree = "<group>"; };
-		9570B835F21E06D64076796E /* Pods-SaihajReactNativeStarter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-tvOS/Pods-SaihajReactNativeStarter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		BFE50921310C7AD05567B5FF /* libPods-SaihajReactNativeStarter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaihajReactNativeStarter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BB0B2997523C014BF79635 /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.debug.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A903149B5815E594995AE93 /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.release.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B66A8E62B4BD0895D98DB02 /* libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E359F5838E2777867722C1 /* Pods-SaihajReactNativeStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter.debug.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter/Pods-SaihajReactNativeStarter.debug.xcconfig"; sourceTree = "<group>"; };
+		99C87B476BF001557EDB1EB3 /* libPods-SaihajReactNativeStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaihajReactNativeStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A35C30BF2C0BE4FF057D307 /* Pods-SaihajReactNativeStarter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-tvOSTests/Pods-SaihajReactNativeStarter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A78EE054BA9F52345E432175 /* libPods-SaihajReactNativeStarter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaihajReactNativeStarter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12081A3FFDFCC9C8C0FC3F4 /* libPods-SaihajReactNativeStarter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SaihajReactNativeStarter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B581799E95E0D815B6371941 /* Pods-SaihajReactNativeStarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-tvOS/Pods-SaihajReactNativeStarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C50F102D2E82DE9283DF1826 /* Pods-SaihajReactNativeStarter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-tvOS/Pods-SaihajReactNativeStarter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DB04316F4C1CBF469AAA69B9 /* Pods-SaihajReactNativeStarter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaihajReactNativeStarter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SaihajReactNativeStarter-tvOSTests/Pods-SaihajReactNativeStarter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187FE35572DDB81700274B99 /* libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a in Frameworks */,
+				841F0850431850AC45FF1723 /* libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC4A820C2BCFF36A688CB07 /* libPods-SaihajReactNativeStarter.a in Frameworks */,
+				68ED96EDDA090F1DD1810081 /* libPods-SaihajReactNativeStarter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5633EB6F6A6978E5302859 /* libPods-SaihajReactNativeStarter-tvOS.a in Frameworks */,
+				BC7DF3329BB21ADFB22EFB69 /* libPods-SaihajReactNativeStarter-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA2F54DF78FD0CB6D54E97E /* libPods-SaihajReactNativeStarter-tvOSTests.a in Frameworks */,
+				F4783418C7F2738AEE570006 /* libPods-SaihajReactNativeStarter-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,22 +122,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0C65BD4D89843C6C12F50E97 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5E553A4333C75C29476E2FE7 /* Pods-SaihajReactNativeStarter.debug.xcconfig */,
-				3E5D37D913DCF2785A7FFC88 /* Pods-SaihajReactNativeStarter.release.xcconfig */,
-				24A57815FE9EE28024BF23E0 /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.debug.xcconfig */,
-				3A8AEE4601AD62D1B6EC927B /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.release.xcconfig */,
-				9570B835F21E06D64076796E /* Pods-SaihajReactNativeStarter-tvOS.debug.xcconfig */,
-				009685BE04E987F6FD2D1EC9 /* Pods-SaihajReactNativeStarter-tvOS.release.xcconfig */,
-				501E19FDDAE752EA0EAE3C32 /* Pods-SaihajReactNativeStarter-tvOSTests.debug.xcconfig */,
-				21DA999A5B59A3331EAB98A0 /* Pods-SaihajReactNativeStarter-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* SaihajReactNativeStarter */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,12 +141,27 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				1E6BAFCD1E34821386ACC0EC /* libPods-SaihajReactNativeStarter.a */,
-				0553C35C58B578A269C052B6 /* libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a */,
-				13044B8BE20A3FED43138901 /* libPods-SaihajReactNativeStarter-tvOS.a */,
-				BFE50921310C7AD05567B5FF /* libPods-SaihajReactNativeStarter-tvOSTests.a */,
+				99C87B476BF001557EDB1EB3 /* libPods-SaihajReactNativeStarter.a */,
+				6B66A8E62B4BD0895D98DB02 /* libPods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.a */,
+				B12081A3FFDFCC9C8C0FC3F4 /* libPods-SaihajReactNativeStarter-tvOS.a */,
+				A78EE054BA9F52345E432175 /* libPods-SaihajReactNativeStarter-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EC49B91F57ED9A61EBA8BE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71E359F5838E2777867722C1 /* Pods-SaihajReactNativeStarter.debug.xcconfig */,
+				118734D2BD52A9357A8F8908 /* Pods-SaihajReactNativeStarter.release.xcconfig */,
+				37BB0B2997523C014BF79635 /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.debug.xcconfig */,
+				3A903149B5815E594995AE93 /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.release.xcconfig */,
+				C50F102D2E82DE9283DF1826 /* Pods-SaihajReactNativeStarter-tvOS.debug.xcconfig */,
+				B581799E95E0D815B6371941 /* Pods-SaihajReactNativeStarter-tvOS.release.xcconfig */,
+				DB04316F4C1CBF469AAA69B9 /* Pods-SaihajReactNativeStarter-tvOSTests.debug.xcconfig */,
+				9A35C30BF2C0BE4FF057D307 /* Pods-SaihajReactNativeStarter-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +179,7 @@
 				00E356EF1AD99517003FC87E /* SaihajReactNativeStarterTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				0C65BD4D89843C6C12F50E97 /* Pods */,
+				6EC49B91F57ED9A61EBA8BE0 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,10 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SaihajReactNativeStarterTests" */;
 			buildPhases = (
-				760395B2AD6017EE332E2814 /* [CP] Check Pods Manifest.lock */,
+				684A6544A655ACBCB701894D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				4E9CCA92E7026D78929FDA1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,12 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SaihajReactNativeStarter" */;
 			buildPhases = (
-				0FDF29701DC7DA982D5ACC21 /* [CP] Check Pods Manifest.lock */,
+				20FC99B5C8B7CFEEF2F938C2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				A2CC9E72D45CBA6CCD590C2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,7 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SaihajReactNativeStarter-tvOS" */;
 			buildPhases = (
-				16CA6E5477EF9AD38B4686D4 /* [CP] Check Pods Manifest.lock */,
+				9146C7EF29F89DCBF8FB6FBE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SaihajReactNativeStarter-tvOSTests" */;
 			buildPhases = (
-				1CECAFB9A3DEAE3E16FDC9B9 /* [CP] Check Pods Manifest.lock */,
+				125CF6C8C4AAEE98F174EBE4 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -285,7 +286,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1150;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -375,51 +376,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0FDF29701DC7DA982D5ACC21 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SaihajReactNativeStarter-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		16CA6E5477EF9AD38B4686D4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SaihajReactNativeStarter-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1CECAFB9A3DEAE3E16FDC9B9 /* [CP] Check Pods Manifest.lock */ = {
+		125CF6C8C4AAEE98F174EBE4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,6 +398,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		20FC99B5C8B7CFEEF2F938C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaihajReactNativeStarter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -455,7 +434,25 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		760395B2AD6017EE332E2814 /* [CP] Check Pods Manifest.lock */ = {
+		4E9CCA92E7026D78929FDA1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests/Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		684A6544A655ACBCB701894D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -475,6 +472,46 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9146C7EF29F89DCBF8FB6FBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaihajReactNativeStarter-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2CC9E72D45CBA6CCD590C2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaihajReactNativeStarter/Pods-SaihajReactNativeStarter-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaihajReactNativeStarter/Pods-SaihajReactNativeStarter-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -582,8 +619,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24A57815FE9EE28024BF23E0 /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.debug.xcconfig */;
+			baseConfigurationReference = 37BB0B2997523C014BF79635 /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -605,8 +643,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A8AEE4601AD62D1B6EC927B /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.release.xcconfig */;
+			baseConfigurationReference = 3A903149B5815E594995AE93 /* Pods-SaihajReactNativeStarter-SaihajReactNativeStarterTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = SaihajReactNativeStarterTests/Info.plist;
@@ -625,7 +664,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E553A4333C75C29476E2FE7 /* Pods-SaihajReactNativeStarter.debug.xcconfig */;
+			baseConfigurationReference = 71E359F5838E2777867722C1 /* Pods-SaihajReactNativeStarter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -652,7 +691,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E5D37D913DCF2785A7FFC88 /* Pods-SaihajReactNativeStarter.release.xcconfig */;
+			baseConfigurationReference = 118734D2BD52A9357A8F8908 /* Pods-SaihajReactNativeStarter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -673,7 +712,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9570B835F21E06D64076796E /* Pods-SaihajReactNativeStarter-tvOS.debug.xcconfig */;
+			baseConfigurationReference = C50F102D2E82DE9283DF1826 /* Pods-SaihajReactNativeStarter-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,7 +740,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 009685BE04E987F6FD2D1EC9 /* Pods-SaihajReactNativeStarter-tvOS.release.xcconfig */;
+			baseConfigurationReference = B581799E95E0D815B6371941 /* Pods-SaihajReactNativeStarter-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -729,7 +768,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 501E19FDDAE752EA0EAE3C32 /* Pods-SaihajReactNativeStarter-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = DB04316F4C1CBF469AAA69B9 /* Pods-SaihajReactNativeStarter-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -756,7 +795,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21DA999A5B59A3331EAB98A0 /* Pods-SaihajReactNativeStarter-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 9A35C30BF2C0BE4FF057D307 /* Pods-SaihajReactNativeStarter-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
