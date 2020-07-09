@@ -22,7 +22,9 @@ Soon will also add github actions for deployment.
 ```
 start:android   Start the Android emulator
 start:ios       Start the iOS emulator
+start-sims      Start Android and iOS emulators
 
+clean           Clean Android and iOS
 clean:android   Clean Android build files
 clean:ios       Clean iOS build files
 
