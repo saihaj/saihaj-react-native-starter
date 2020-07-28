@@ -1,3 +1,5 @@
+![Continuous Integration](https://github.com/saihaj/saihaj-react-native-starter/workflows/Continuous%20Integration/badge.svg)
+
 # Development Setup
 
 This is a `react-native init` project. That has eslint and other add-ons that are preset for my projects.

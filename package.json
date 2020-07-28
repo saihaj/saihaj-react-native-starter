@@ -16,6 +16,7 @@
     "start": "react-native start",
     "start-sims": "npm run start:ios && npm run start:android",
     "test": "jest --color --watch",
+    "test:ci": "jest",
     "clean:android": "cd android && ./gradlew clean",
     "clean:ios": "cd ios && rimraf Pods && xcodebuild clean",
     "clean": "react-native-clean-project",
