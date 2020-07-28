@@ -16,7 +16,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen'
 
-
 const styles = StyleSheet.create( {
   scrollView: {
     backgroundColor: Colors.lighter,
@@ -55,7 +54,6 @@ const styles = StyleSheet.create( {
     textAlign: 'right',
   },
 } )
-
 
 const App = () => (
   <>
